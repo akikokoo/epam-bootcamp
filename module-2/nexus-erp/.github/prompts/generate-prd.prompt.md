@@ -4,7 +4,7 @@ description: "Generate a PRD from project brief"
 
 # Generate PRD
 
-You are generating a Product Requirements Document (PRD) for this repository.
+You are generating a Product Requirements Document (PRD) for the NexusERP repository.
 
 ## Instructions
 1. Read and follow the template at `specs/templates/prd-template.md`.
@@ -18,10 +18,11 @@ You are generating a Product Requirements Document (PRD) for this repository.
 
 ## PRD Quality Checklist
 Before finalizing, confirm the PRD satisfies all of the following:
-- Problem statement includes numbers/baseline context where available.
-- User personas are explicitly named (not generic labels only).
-- Success metrics are SMART (specific, measurable, achievable, relevant, time-bound when applicable).
-- Scope is unambiguous, with clear in-scope and out-of-scope items.
+- [ ] Problem statement includes numbers/baseline context where available.
+- [ ] User personas are explicitly named (not generic labels only).
+- [ ] Success metrics are SMART (specific, measurable, achievable, relevant, time-bound when applicable).
+- [ ] Scope is unambiguous, with clear in-scope and out-of-scope items.
+- [ ] AI Memory Bank interactions (if any) are explicitly called out.
 
 ## Output Requirements
 - Output only the final PRD content using the repository template structure.
