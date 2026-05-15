@@ -1,0 +1,96 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "IE InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: IE
+        - generic [ref=e6]: InnovatEPAM
+        - generic [ref=e7]: Portal
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e11]: bob@test.com
+          - generic [ref=e12]: Submitter
+        - link "My Ideas" [ref=e13] [cursor=pointer]:
+          - /url: /submitter/ideas
+        - button "Logout" [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "My Innovation Hub" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Track and manage all your innovation ideas in one place
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: "1"
+            - generic [ref=e26]: Total Submitted
+          - generic [ref=e27]:
+            - generic [ref=e28]: "0"
+            - generic [ref=e29]: Under Review
+          - generic [ref=e30]:
+            - generic [ref=e31]: "0"
+            - generic [ref=e32]: Accepted
+          - generic [ref=e33]:
+            - generic [ref=e34]: "0"
+            - generic [ref=e35]: Drafts
+        - generic [ref=e36]:
+          - heading "💡 New Idea" [level=2] [ref=e67]
+          - button "✕ Cancel" [active] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - heading "💡 Submit a New Idea" [level=2] [ref=e71]
+            - paragraph [ref=e72]: Share your innovation with the team
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Title *
+              - textbox "Give your idea a clear, catchy title" [ref=e76]
+            - generic [ref=e77]:
+              - generic [ref=e78]: Category *
+              - generic [ref=e79]:
+                - button "⚙️ Technical Innovation New tools, engineering improvements, technical solutions" [ref=e80]:
+                  - generic [ref=e81]: ⚙️
+                  - generic [ref=e82]:
+                    - generic [ref=e83]: Technical Innovation
+                    - generic [ref=e84]: New tools, engineering improvements, technical solutions
+                - button "🔄 Process Improvement Workflow optimizations, efficiency gains, automation" [ref=e85]:
+                  - generic [ref=e86]: 🔄
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: Process Improvement
+                    - generic [ref=e89]: Workflow optimizations, efficiency gains, automation
+                - button "🤝 Client Solution Products or services addressing specific client needs" [ref=e90]:
+                  - generic [ref=e91]: 🤝
+                  - generic [ref=e92]:
+                    - generic [ref=e93]: Client Solution
+                    - generic [ref=e94]: Products or services addressing specific client needs
+                - button "💡 Other Any other innovative idea worth exploring" [ref=e95]:
+                  - generic [ref=e96]: 💡
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: Other
+                    - generic [ref=e99]: Any other innovative idea worth exploring
+            - generic [ref=e100]:
+              - generic [ref=e101]: Description *
+              - textbox "Describe your idea in full detail…" [ref=e102]
+              - paragraph [ref=e103]: Explain your idea in detail — what, why, and how
+            - generic [ref=e104]:
+              - generic [ref=e105]: Attachments
+              - button "Choose File" [ref=e107] [cursor=pointer]
+              - paragraph [ref=e108]: PDF, PNG, JPG, JPEG, DOCX, MP4, MOV, PPTX — max 50MB each
+            - generic [ref=e109]:
+              - button "💾 Save as Draft" [ref=e110]
+              - button "🚀 Submit Idea" [ref=e111]
+        - generic [ref=e39]:
+          - generic [ref=e42]: 🚀 Submitted (1)
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - heading "AI Code Review Tool" [level=3] [ref=e49]
+              - generic [ref=e50]:
+                - generic [ref=e51]: 📬
+                - text: Submitted
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: ⚙️
+                - text: Technical Innovation
+              - generic [ref=e55]: May 15, 2026
+  - contentinfo [ref=e56]: InnovatEPAM Portal — Employee Innovation Management Platform
+  - button "Open Next.js Dev Tools" [ref=e62] [cursor=pointer]:
+    - img [ref=e63]
+  - alert [ref=e66]

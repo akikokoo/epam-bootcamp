@@ -1,0 +1,51 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "IE InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: IE
+        - generic [ref=e6]: InnovatEPAM
+        - generic [ref=e7]: Portal
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e11]: bob@test.com
+          - generic [ref=e12]: Submitter
+        - link "My Ideas" [ref=e13] [cursor=pointer]:
+          - /url: /submitter/ideas
+        - button "Logout" [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "My Innovation Hub" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Track and manage all your innovation ideas in one place
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: "1"
+            - generic [ref=e26]: Total Submitted
+          - generic [ref=e27]:
+            - generic [ref=e28]: "0"
+            - generic [ref=e29]: Under Review
+          - generic [ref=e30]:
+            - generic [ref=e31]: "0"
+            - generic [ref=e32]: Accepted
+          - generic [ref=e33]:
+            - generic [ref=e34]: "0"
+            - generic [ref=e35]: Drafts
+        - generic [ref=e36]:
+          - heading "Your Ideas" [level=2] [ref=e37]
+          - button "+ New Idea" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e42]: 🚀 Submitted (1)
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - heading "AI Code Review Tool" [level=3] [ref=e49]
+              - generic [ref=e50]:
+                - generic [ref=e51]: 📬
+                - text: Submitted
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: ⚙️
+                - text: Technical Innovation
+              - generic [ref=e55]: May 15, 2026
+  - contentinfo [ref=e56]: InnovatEPAM Portal — Employee Innovation Management Platform

@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "All Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "All Submitted Ideas" [level=1] [ref=e10]
+      - generic [ref=e11]: No ideas have been submitted yet.

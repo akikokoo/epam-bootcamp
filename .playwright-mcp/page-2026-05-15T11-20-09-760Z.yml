@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "IE InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: IE
+        - generic [ref=e6]: InnovatEPAM
+        - generic [ref=e7]: Portal
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e11]: admin@innovatepam.local
+          - generic [ref=e12]: Admin
+        - link "All Ideas" [ref=e13] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: IE
+          - heading "Turn ideas into innovation" [level=1] [ref=e20]
+          - paragraph [ref=e21]: Submit, evaluate and track employee ideas through a structured workflow.
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: ✓
+            - text: Smart submission forms per category
+          - generic [ref=e25]:
+            - generic [ref=e26]: ✓
+            - text: Multi-stage evaluation pipeline
+          - generic [ref=e27]:
+            - generic [ref=e28]: ✓
+            - text: Blind review & scoring system
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Welcome back" [level=2] [ref=e32]
+          - paragraph [ref=e33]: Sign in to your account
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - text: Email address
+            - textbox "Email address" [ref=e36]:
+              - /placeholder: you@company.com
+          - generic [ref=e37]:
+            - text: Password
+            - textbox "Password" [ref=e38]:
+              - /placeholder: ••••••••
+          - button "Sign In →" [ref=e39]
+          - paragraph [ref=e40]:
+            - text: No account?
+            - link "Create one free" [ref=e41] [cursor=pointer]:
+              - /url: /register
+  - contentinfo [ref=e42]: InnovatEPAM Portal — Employee Innovation Management Platform
+  - button "Open Next.js Dev Tools" [ref=e48] [cursor=pointer]:
+    - img [ref=e49]

@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "My Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /submitter/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "My Innovation Ideas" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - button "+ New Idea" [ref=e73]
+        - generic [ref=e74]:
+          - heading "Drafts" [level=2] [ref=e75]
+          - generic [ref=e77]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: AI Code Review Tool
+              - generic [ref=e81]: Draft
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Technical Innovation
+              - paragraph [ref=e84]: May 15, 2026
+              - button "Edit Draft" [ref=e85]
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]
+  - alert [ref=e23]

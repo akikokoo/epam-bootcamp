@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "All Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "All Submitted Ideas" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - generic [ref=e15]: AI Code Review Tool
+              - generic [ref=e17]: Initial Screening
+            - paragraph [ref=e18]: bob@test.com · Technical Innovation · May 15, 2026
+          - generic [ref=e19]:
+            - paragraph [ref=e20]: Integrate AI into CI/CD to automatically review PRs and detect code smells.
+            - generic [ref=e21]:
+              - paragraph [ref=e22]:
+                - generic [ref=e23]: "Tech Stack:"
+                - text: Python, LLM APIs, GitHub Actions
+              - paragraph [ref=e24]:
+                - generic [ref=e25]: "Estimated Effort:"
+                - text: 2 months
+            - generic [ref=e26]:
+              - generic [ref=e27]: Submitted
+              - button "🔒 Blind Review" [ref=e28]
+            - generic [ref=e29]:
+              - combobox [ref=e30]:
+                - generic [ref=e31]: Change status…
+                - img: ▼
+              - textbox [ref=e32]
+              - button "Save" [disabled]
+            - generic [ref=e33]:
+              - paragraph [ref=e34]: Add Comment
+              - textbox "Write an evaluation comment…" [ref=e35]
+              - button "Add Comment" [ref=e36]
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: AI-Powered Code Review Tool
+              - generic [ref=e42]: Initial Screening
+            - paragraph [ref=e43]: alice@test.com · Technical Innovation · May 15, 2026
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Integrate an AI assistant into our CI/CD pipeline to automatically review pull requests, detect code smells, and suggest improvements before human review.
+            - generic [ref=e46]:
+              - generic [ref=e47]: Under Review
+              - button "🔒 Blind Review" [ref=e48]
+            - button "Advance to Technical Review" [ref=e50]
+            - generic [ref=e51]:
+              - combobox [ref=e52]:
+                - generic [ref=e53]: Change status…
+                - img: ▼
+              - textbox [ref=e54]
+              - button "Save" [disabled]
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: Score This Idea (1–5)
+              - generic [ref=e57]:
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Innovation
+                  - spinbutton [ref=e60]
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Feasibility
+                  - spinbutton [ref=e63]
+                - generic [ref=e64]:
+                  - generic [ref=e65]: Impact
+                  - spinbutton [ref=e66]
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Clarity
+                  - spinbutton [ref=e69]
+              - button "Submit Score" [ref=e70]
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Evaluation Comments
+              - generic [ref=e73]: "admin@innovatepam.local: This is a promising idea. We will evaluate the feasibility and cost in the next sprint review.May 15, 2026"
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Add Comment
+              - textbox "Write an evaluation comment…" [ref=e76]
+              - button "Add Comment" [ref=e77]
+  - button "Open Next.js Dev Tools" [ref=e83] [cursor=pointer]:
+    - img [ref=e84]
+  - alert [ref=e87]

@@ -1,0 +1,35 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "All Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "All Submitted Ideas" [level=1] [ref=e10]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: AI-Powered Code Review Tool
+          - paragraph [ref=e15]: alice@test.com · Technical Innovation · May 15, 2026
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Integrate an AI assistant into our CI/CD pipeline to automatically review pull requests, detect code smells, and suggest improvements before human review.
+          - generic [ref=e19]: Submitted
+          - generic [ref=e20]:
+            - combobox [expanded] [ref=e21]:
+              - generic [ref=e22]: Change status…
+              - img: ▼
+            - listbox [ref=e41]:
+              - option "Under Review" [active] [ref=e42]:
+                - generic [ref=e43]: Under Review
+            - textbox [ref=e23]
+            - button "Save" [disabled]
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: Add Comment
+            - textbox "Write an evaluation comment…" [ref=e26]
+            - button "Add Comment" [ref=e27]
+  - button "Open Next.js Dev Tools" [ref=e33] [cursor=pointer]:
+    - img [ref=e34]
+  - alert [ref=e37]

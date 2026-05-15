@@ -1,0 +1,65 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "My Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /submitter/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "My Innovation Ideas" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - button "Cancel" [ref=e86]
+        - generic [ref=e87]:
+          - generic [ref=e89]: Edit Draft
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]: Title *
+              - textbox "Title *" [ref=e94]: AI Code Review Tool
+            - generic [ref=e95]:
+              - generic [ref=e96]: Category *
+              - combobox "Category *" [ref=e97]:
+                - generic [ref=e98]: Technical Innovation
+                - img: ▼
+              - textbox [ref=e99]: TECHNICAL_INNOVATION
+              - paragraph [ref=e100]: Describe a technical innovation, new tool, or engineering improvement that could benefit EPAM or its clients.
+            - generic [ref=e101]:
+              - generic [ref=e102]: Technology Stack
+              - textbox "Technology Stack" [ref=e103]:
+                - /placeholder: e.g. React, Node.js, AWS
+                - text: Python, LLM APIs, GitHub Actions
+            - generic [ref=e104]:
+              - generic [ref=e105]: Technical Complexity
+              - combobox "Technical Complexity" [ref=e106]:
+                - generic [ref=e107]: Select complexity
+                - img: ▼
+              - textbox [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]: Estimated Development Time
+              - textbox "Estimated Development Time" [ref=e111]:
+                - /placeholder: e.g. 2 weeks, 3 months
+                - text: 2 months
+            - generic [ref=e112]:
+              - generic [ref=e113]: Description *
+              - textbox "Description *" [ref=e114]: Integrate AI into CI/CD to automatically review PRs and detect code smells.
+            - generic [ref=e115]:
+              - generic [ref=e116]: Attachments (optional — PDF, PNG, JPG, JPEG, DOCX, MP4, MOV, PPTX, max 50MB each)
+              - button "Attachments (optional — PDF, PNG, JPG, JPEG, DOCX, MP4, MOV, PPTX, max 50MB each)" [ref=e117]
+            - generic [ref=e118]:
+              - button "Save as Draft" [ref=e119]
+              - button "Submit Idea" [ref=e120]
+        - generic [ref=e74]:
+          - heading "Drafts" [level=2] [ref=e75]
+          - generic [ref=e77]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: AI Code Review Tool
+              - generic [ref=e81]: Draft
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Technical Innovation
+              - paragraph [ref=e84]: May 15, 2026
+              - button "Edit Draft" [active] [ref=e85]
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]
+  - alert [ref=e23]

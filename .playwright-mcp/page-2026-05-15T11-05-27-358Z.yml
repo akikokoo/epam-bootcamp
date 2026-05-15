@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "All Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e35]:
+      - generic [ref=e37]: Sign In
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: Email
+          - textbox "Email" [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: Password
+          - textbox "Password" [ref=e45]
+        - button "Sign In" [ref=e46]
+        - paragraph [ref=e47]:
+          - text: No account?
+          - link "Register" [ref=e48] [cursor=pointer]:
+            - /url: /register
+  - button "Open Next.js Dev Tools" [ref=e29] [cursor=pointer]:
+    - img [ref=e30]
+  - alert [ref=e33]

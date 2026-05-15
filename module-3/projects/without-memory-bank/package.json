@@ -1,0 +1,12 @@
+{
+  "name": "nexus-erp-without-memory-bank",
+  "version": "1.0.0",
+  "description": "AI-generated code WITHOUT memory bank context — demonstrates common issues",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

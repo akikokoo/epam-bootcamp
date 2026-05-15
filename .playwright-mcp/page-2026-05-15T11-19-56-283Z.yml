@@ -1,0 +1,150 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "IE InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: IE
+        - generic [ref=e6]: InnovatEPAM
+        - generic [ref=e7]: Portal
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e11]: admin@innovatepam.local
+          - generic [ref=e12]: Admin
+        - link "All Ideas" [ref=e13] [cursor=pointer]:
+          - /url: /admin/ideas
+        - button "Logout" [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e18]:
+        - heading "Admin Review Dashboard" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Review, score, and advance ideas through the evaluation pipeline
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: 📋
+            - generic [ref=e26]: "2"
+            - generic [ref=e27]: Total
+          - generic [ref=e28]:
+            - generic [ref=e29]: 📬
+            - generic [ref=e30]: "1"
+            - generic [ref=e31]: Submitted
+          - generic [ref=e32]:
+            - generic [ref=e33]: 🔍
+            - generic [ref=e34]: "1"
+            - generic [ref=e35]: Reviewing
+          - generic [ref=e36]:
+            - generic [ref=e37]: ✅
+            - generic [ref=e38]: "0"
+            - generic [ref=e39]: Accepted
+          - generic [ref=e40]:
+            - generic [ref=e41]: ❌
+            - generic [ref=e42]: "0"
+            - generic [ref=e43]: Rejected
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]: ⚙️
+                - heading "AI Code Review Tool" [level=3] [ref=e51]
+              - generic [ref=e52]:
+                - generic [ref=e53]: bob@test.com
+                - generic [ref=e54]: ·
+                - generic [ref=e55]: Technical Innovation
+                - generic [ref=e56]: ·
+                - generic [ref=e57]: May 15, 2026
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: 📬
+                - text: Submitted
+              - button "▲" [ref=e61]
+          - paragraph [ref=e62]: Integrate AI into CI/CD to automatically review PRs and detect code smells.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: Tech Stack
+              - text: Python, LLM APIs, GitHub Actions
+            - generic [ref=e66]:
+              - generic [ref=e67]: Estimated Effort
+              - text: 2 months
+          - button "🔒 Enable Blind Review" [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]: "Change Status:"
+            - combobox [ref=e72]:
+              - option "Change status…" [selected]
+              - option "Under Review"
+            - button "Save" [disabled] [ref=e73]
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: ✍️ Add Comment
+            - textbox "Write an evaluation comment…" [ref=e76]
+            - button "Add Comment" [ref=e77]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: ⚙️
+                - heading "AI-Powered Code Review Tool" [level=3] [ref=e85]
+              - generic [ref=e86]:
+                - generic [ref=e87]: alice@test.com
+                - generic [ref=e88]: ·
+                - generic [ref=e89]: Technical Innovation
+                - generic [ref=e90]: ·
+                - generic [ref=e91]: May 15, 2026
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: 🔍
+                - text: Under Review
+              - button "▲" [ref=e95]
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: 🔍
+              - generic [ref=e101]: Initial Screening
+            - generic [ref=e104]:
+              - generic [ref=e105]: 🔬
+              - generic [ref=e106]: Technical Review
+            - generic [ref=e109]:
+              - generic [ref=e110]: 📊
+              - generic [ref=e111]: Business Impact
+            - generic [ref=e114]:
+              - generic [ref=e115]: 🏆
+              - generic [ref=e116]: Final Selection
+          - paragraph [ref=e117]: Integrate an AI assistant into our CI/CD pipeline to automatically review pull requests, detect code smells, and suggest improvements before human review.
+          - generic [ref=e118]:
+            - button "🔒 Enable Blind Review" [ref=e119]
+            - button "🔬 Advance to Technical Review" [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]: "Change Status:"
+            - combobox [ref=e123]:
+              - option "Change status…" [selected]
+              - option "Accepted"
+              - option "Rejected"
+            - button "Save" [disabled] [ref=e124]
+          - generic [ref=e125]:
+            - paragraph [ref=e126]: ⭐ Score This Idea (1–5)
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic [ref=e129]: 💡 Innovation
+                - spinbutton [ref=e130]
+              - generic [ref=e131]:
+                - generic [ref=e132]: 🔧 Feasibility
+                - spinbutton [ref=e133]
+              - generic [ref=e134]:
+                - generic [ref=e135]: 📈 Impact
+                - spinbutton [ref=e136]
+              - generic [ref=e137]:
+                - generic [ref=e138]: 🎯 Clarity
+                - spinbutton [ref=e139]
+            - button "Submit Score" [ref=e140]
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: 💬 Evaluation Comments
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e145]: admin@innovatepam.local
+                - generic [ref=e146]: May 15, 2026
+              - paragraph [ref=e147]: This is a promising idea. We will evaluate the feasibility and cost in the next sprint review.
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: ✍️ Add Comment
+            - textbox "Write an evaluation comment…" [ref=e150]
+            - button "Add Comment" [ref=e151]
+  - contentinfo [ref=e152]: InnovatEPAM Portal — Employee Innovation Management Platform
+  - button "Open Next.js Dev Tools" [ref=e158] [cursor=pointer]:
+    - img [ref=e159]
+  - alert [ref=e162]

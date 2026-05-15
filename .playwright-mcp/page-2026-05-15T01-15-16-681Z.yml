@@ -1,0 +1,46 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "InnovatEPAM Portal" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e5]:
+        - link "My Ideas" [ref=e6] [cursor=pointer]:
+          - /url: /submitter/ideas
+        - button "Logout" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "My Innovation Ideas" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - button "Cancel" [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e27]: Submit a New Idea
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: Title *
+              - textbox "Title *" [ref=e32]: AI-Powered Code Review Tool
+            - generic [ref=e33]:
+              - generic [ref=e34]: Description *
+              - textbox "Description *" [ref=e35]: Integrate an AI assistant into our CI/CD pipeline to automatically review pull requests, detect code smells, and suggest improvements before human review.
+            - generic [ref=e36]:
+              - generic [ref=e37]: Category *
+              - combobox "Category *" [expanded] [ref=e38]:
+                - generic [ref=e39]: Select a category
+                - img: ▼
+              - listbox [ref=e48]:
+                - option "Technical Innovation" [active] [ref=e49]:
+                  - generic [ref=e50]: Technical Innovation
+                - option "Process Improvement" [ref=e51]:
+                  - generic [ref=e52]: Process Improvement
+                - option "Client Solution" [ref=e53]:
+                  - generic [ref=e54]: Client Solution
+                - option "Other" [ref=e55]:
+                  - generic [ref=e56]: Other
+              - textbox [ref=e40]
+            - generic [ref=e41]:
+              - generic [ref=e42]: Attachment (optional — PDF, PNG, JPG, JPEG, DOCX, max 10MB)
+              - button "Attachment (optional — PDF, PNG, JPG, JPEG, DOCX, max 10MB)" [ref=e43]
+            - button "Submit Idea" [ref=e44]
+      - generic [ref=e13]: No ideas submitted yet. Use the form above to share your first innovation idea.
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]
+  - alert [ref=e23]
