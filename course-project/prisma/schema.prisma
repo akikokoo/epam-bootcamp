@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  submitter
+  admin
+}
+
+enum Category {
+  TECHNICAL_INNOVATION
+  PROCESS_IMPROVEMENT
+  CLIENT_SOLUTION
+  OTHER
+}
+
+enum IdeaStatus {
+  SUBMITTED
+  UNDER_REVIEW
+  ACCEPTED
+  REJECTED
+}
+
+enum ReviewStage {
+  INITIAL_SCREENING
+  TECHNICAL_REVIEW
+  BUSINESS_IMPACT
+  FINAL_SELECTION
+}
+
+model User {
+  id           String              @id @default(cuid())
+  email        String              @unique
+  passwordHash String
+  role         Role                @default(submitter)
+  createdAt    DateTime            @default(now())
+  ideas        Idea[]
+  comments     EvaluationComment[]
+  sessions     Session[]
+  scores       IdeaScore[]
+}
+
+model Idea {
+  id           String              @id @default(cuid())
+  title        String
+  description  String
+  category     Category
+  categoryData String?
+  status       IdeaStatus          @default(SUBMITTED)
+  isDraft      Boolean             @default(false)
+  reviewStage  ReviewStage         @default(INITIAL_SCREENING)
+  blindReview  Boolean             @default(false)
+  submitterId  String
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+  submitter    User                @relation(fields: [submitterId], references: [id])
+  attachments  Attachment[]
+  comments     EvaluationComment[]
+  scores       IdeaScore[]
+}
+
+model Attachment {
+  id       String @id @default(cuid())
+  fileName String
+  filePath String
+  fileType String
+  fileSize Int
+  ideaId   String
+  idea     Idea   @relation(fields: [ideaId], references: [id])
+}
+
+model EvaluationComment {
+  id        String   @id @default(cuid())
+  text      String
+  adminId   String
+  ideaId    String
+  createdAt DateTime @default(now())
+  admin     User     @relation(fields: [adminId], references: [id])
+  idea      Idea     @relation(fields: [ideaId], references: [id])
+}
+
+model IdeaScore {
+  id            String   @id @default(cuid())
+  ideaId        String
+  adminId       String
+  innovation    Int
+  feasibility   Int
+  impact        Int
+  clarity       Int
+  createdAt     DateTime @default(now())
+  idea          Idea     @relation(fields: [ideaId], references: [id])
+  admin         User     @relation(fields: [adminId], references: [id])
+
+  @@unique([ideaId, adminId])
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}
